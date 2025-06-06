@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160962F52DC4430100B9108E /* WaWiMiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160962F42DC4430100B9108E /* WaWiMiApp.swift */; };
+		160962F72DC4430100B9108E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160962F62DC4430100B9108E /* ContentView.swift */; };
+		160962F92DC4430600B9108E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160962F82DC4430600B9108E /* Assets.xcassets */; };
+		160962FC2DC4430600B9108E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160962FB2DC4430600B9108E /* Preview Assets.xcassets */; };
+		160963062DC4430700B9108E /* WaWiMiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160963052DC4430700B9108E /* WaWiMiTests.swift */; };
+		160963102DC4430700B9108E /* WaWiMiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609630F2DC4430700B9108E /* WaWiMiUITests.swift */; };
+		160963122DC4430700B9108E /* WaWiMiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160963112DC4430700B9108E /* WaWiMiUITestsLaunchTests.swift */; };
+		160963212DC4442900B9108E /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160963202DC4442900B9108E /* SwipeView.swift */; };
+		161F5C8B2DC93E31003DD63C /* WalkConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5C8A2DC93E31003DD63C /* WalkConfirmationView.swift */; };
+		161F5C8D2DC940B1003DD63C /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5C8C2DC940B1003DD63C /* OnboardingPage.swift */; };
+		161F5C8F2DC940DD003DD63C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5C8E2DC940DD003DD63C /* OnboardingView.swift */; };
+		161F5C912DC9426E003DD63C /* EditWalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5C902DC9426E003DD63C /* EditWalkView.swift */; };
+		161F5C932DC942FD003DD63C /* ScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5C922DC942FD003DD63C /* ScheduleListView.swift */; };
+		161F5C972DC95988003DD63C /* WalkStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5C962DC95988003DD63C /* WalkStorage.swift */; };
+		161F5C9D2DC96DED003DD63C /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5C9C2DC96DED003DD63C /* SwipeCardView.swift */; };
+		161F5C9F2DC97D02003DD63C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5C9E2DC97D02003DD63C /* UserProfile.swift */; };
+		1684E6552DC44B4F00D3D55D /* ScheduleWalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1684E6542DC44B4F00D3D55D /* ScheduleWalkView.swift */; };
+		1699A7252DEFA82900E08620 /* ScheduledWalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1699A7242DEFA82900E08620 /* ScheduledWalk.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		160963022DC4430700B9108E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160962E92DC4430100B9108E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160962F02DC4430100B9108E;
+			remoteInfo = WaWiMe;
+		};
+		1609630C2DC4430700B9108E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160962E92DC4430100B9108E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160962F02DC4430100B9108E;
+			remoteInfo = WaWiMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160962F12DC4430100B9108E /* WaWiMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaWiMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		160962F42DC4430100B9108E /* WaWiMiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaWiMiApp.swift; sourceTree = "<group>"; };
+		160962F62DC4430100B9108E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		160962F82DC4430600B9108E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		160962FB2DC4430600B9108E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		160963012DC4430700B9108E /* WaWiMiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaWiMiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160963052DC4430700B9108E /* WaWiMiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaWiMiTests.swift; sourceTree = "<group>"; };
+		1609630B2DC4430700B9108E /* WaWiMiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaWiMiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1609630F2DC4430700B9108E /* WaWiMiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaWiMiUITests.swift; sourceTree = "<group>"; };
+		160963112DC4430700B9108E /* WaWiMiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaWiMiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		160963202DC4442900B9108E /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		161F5C862DC5676B003DD63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		161F5C8A2DC93E31003DD63C /* WalkConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkConfirmationView.swift; sourceTree = "<group>"; };
+		161F5C8C2DC940B1003DD63C /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		161F5C8E2DC940DD003DD63C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		161F5C902DC9426E003DD63C /* EditWalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWalkView.swift; sourceTree = "<group>"; };
+		161F5C922DC942FD003DD63C /* ScheduleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListView.swift; sourceTree = "<group>"; };
+		161F5C962DC95988003DD63C /* WalkStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkStorage.swift; sourceTree = "<group>"; };
+		161F5C9C2DC96DED003DD63C /* SwipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		161F5C9E2DC97D02003DD63C /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		1684E6542DC44B4F00D3D55D /* ScheduleWalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWalkView.swift; sourceTree = "<group>"; };
+		1699A7242DEFA82900E08620 /* ScheduledWalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledWalk.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160962EE2DC4430100B9108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160962FE2DC4430700B9108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160963082DC4430700B9108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160962E82DC4430100B9108E = {
+			isa = PBXGroup;
+			children = (
+				1699A7242DEFA82900E08620 /* ScheduledWalk.swift */,
+				160962F32DC4430100B9108E /* WaWiMi */,
+				160963042DC4430700B9108E /* WaWiMiTests */,
+				1609630E2DC4430700B9108E /* WaWiMiUITests */,
+				160962F22DC4430100B9108E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		160962F22DC4430100B9108E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160962F12DC4430100B9108E /* WaWiMi.app */,
+				160963012DC4430700B9108E /* WaWiMiTests.xctest */,
+				1609630B2DC4430700B9108E /* WaWiMiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160962F32DC4430100B9108E /* WaWiMi */ = {
+			isa = PBXGroup;
+			children = (
+				160962F42DC4430100B9108E /* WaWiMiApp.swift */,
+				161F5C962DC95988003DD63C /* WalkStorage.swift */,
+				161F5C902DC9426E003DD63C /* EditWalkView.swift */,
+				161F5C922DC942FD003DD63C /* ScheduleListView.swift */,
+				160962F62DC4430100B9108E /* ContentView.swift */,
+				161F5C862DC5676B003DD63C /* Info.plist */,
+				160963202DC4442900B9108E /* SwipeView.swift */,
+				161F5C9E2DC97D02003DD63C /* UserProfile.swift */,
+				161F5C9C2DC96DED003DD63C /* SwipeCardView.swift */,
+				1684E6542DC44B4F00D3D55D /* ScheduleWalkView.swift */,
+				161F5C8C2DC940B1003DD63C /* OnboardingPage.swift */,
+				161F5C8E2DC940DD003DD63C /* OnboardingView.swift */,
+				161F5C8A2DC93E31003DD63C /* WalkConfirmationView.swift */,
+				160962F82DC4430600B9108E /* Assets.xcassets */,
+				160962FA2DC4430600B9108E /* Preview Content */,
+			);
+			path = WaWiMi;
+			sourceTree = "<group>";
+		};
+		160962FA2DC4430600B9108E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				160962FB2DC4430600B9108E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		160963042DC4430700B9108E /* WaWiMiTests */ = {
+			isa = PBXGroup;
+			children = (
+				160963052DC4430700B9108E /* WaWiMiTests.swift */,
+			);
+			path = WaWiMiTests;
+			sourceTree = "<group>";
+		};
+		1609630E2DC4430700B9108E /* WaWiMiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1609630F2DC4430700B9108E /* WaWiMiUITests.swift */,
+				160963112DC4430700B9108E /* WaWiMiUITestsLaunchTests.swift */,
+			);
+			path = WaWiMiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160962F02DC4430100B9108E /* WaWiMi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160963152DC4430700B9108E /* Build configuration list for PBXNativeTarget "WaWiMi" */;
+			buildPhases = (
+				160962ED2DC4430100B9108E /* Sources */,
+				160962EE2DC4430100B9108E /* Frameworks */,
+				160962EF2DC4430100B9108E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaWiMi;
+			productName = WaWiMe;
+			productReference = 160962F12DC4430100B9108E /* WaWiMi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		160963002DC4430700B9108E /* WaWiMiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160963182DC4430700B9108E /* Build configuration list for PBXNativeTarget "WaWiMiTests" */;
+			buildPhases = (
+				160962FD2DC4430700B9108E /* Sources */,
+				160962FE2DC4430700B9108E /* Frameworks */,
+				160962FF2DC4430700B9108E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160963032DC4430700B9108E /* PBXTargetDependency */,
+			);
+			name = WaWiMiTests;
+			productName = WaWiMeTests;
+			productReference = 160963012DC4430700B9108E /* WaWiMiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1609630A2DC4430700B9108E /* WaWiMiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1609631B2DC4430700B9108E /* Build configuration list for PBXNativeTarget "WaWiMiUITests" */;
+			buildPhases = (
+				160963072DC4430700B9108E /* Sources */,
+				160963082DC4430700B9108E /* Frameworks */,
+				160963092DC4430700B9108E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1609630D2DC4430700B9108E /* PBXTargetDependency */,
+			);
+			name = WaWiMiUITests;
+			productName = WaWiMeUITests;
+			productReference = 1609630B2DC4430700B9108E /* WaWiMiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160962E92DC4430100B9108E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					160962F02DC4430100B9108E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					160963002DC4430700B9108E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 160962F02DC4430100B9108E;
+					};
+					1609630A2DC4430700B9108E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 160962F02DC4430100B9108E;
+					};
+				};
+			};
+			buildConfigurationList = 160962EC2DC4430100B9108E /* Build configuration list for PBXProject "WaWiMi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160962E82DC4430100B9108E;
+			productRefGroup = 160962F22DC4430100B9108E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160962F02DC4430100B9108E /* WaWiMi */,
+				160963002DC4430700B9108E /* WaWiMiTests */,
+				1609630A2DC4430700B9108E /* WaWiMiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160962EF2DC4430100B9108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160962FC2DC4430600B9108E /* Preview Assets.xcassets in Resources */,
+				160962F92DC4430600B9108E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160962FF2DC4430700B9108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160963092DC4430700B9108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160962ED2DC4430100B9108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161F5C912DC9426E003DD63C /* EditWalkView.swift in Sources */,
+				1684E6552DC44B4F00D3D55D /* ScheduleWalkView.swift in Sources */,
+				161F5C9D2DC96DED003DD63C /* SwipeCardView.swift in Sources */,
+				160963212DC4442900B9108E /* SwipeView.swift in Sources */,
+				160962F72DC4430100B9108E /* ContentView.swift in Sources */,
+				161F5C932DC942FD003DD63C /* ScheduleListView.swift in Sources */,
+				161F5C8B2DC93E31003DD63C /* WalkConfirmationView.swift in Sources */,
+				161F5C972DC95988003DD63C /* WalkStorage.swift in Sources */,
+				161F5C9F2DC97D02003DD63C /* UserProfile.swift in Sources */,
+				161F5C8F2DC940DD003DD63C /* OnboardingView.swift in Sources */,
+				161F5C8D2DC940B1003DD63C /* OnboardingPage.swift in Sources */,
+				1699A7252DEFA82900E08620 /* ScheduledWalk.swift in Sources */,
+				160962F52DC4430100B9108E /* WaWiMiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160962FD2DC4430700B9108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160963062DC4430700B9108E /* WaWiMiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160963072DC4430700B9108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160963122DC4430700B9108E /* WaWiMiUITestsLaunchTests.swift in Sources */,
+				160963102DC4430700B9108E /* WaWiMiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160963032DC4430700B9108E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160962F02DC4430100B9108E /* WaWiMi */;
+			targetProxy = 160963022DC4430700B9108E /* PBXContainerItemProxy */;
+		};
+		1609630D2DC4430700B9108E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160962F02DC4430100B9108E /* WaWiMi */;
+			targetProxy = 1609630C2DC4430700B9108E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		160963132DC4430700B9108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		160963142DC4430700B9108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		160963162DC4430700B9108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		160963172DC4430700B9108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		160963192DC4430700B9108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaWiMi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaWiMi";
+			};
+			name = Debug;
+		};
+		1609631A2DC4430700B9108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaWiMi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaWiMi";
+			};
+			name = Release;
+		};
+		1609631C2DC4430700B9108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaWiMe;
+			};
+			name = Debug;
+		};
+		1609631D2DC4430700B9108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaWiMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160962EC2DC4430100B9108E /* Build configuration list for PBXProject "WaWiMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160963132DC4430700B9108E /* Debug */,
+				160963142DC4430700B9108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160963152DC4430700B9108E /* Build configuration list for PBXNativeTarget "WaWiMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160963162DC4430700B9108E /* Debug */,
+				160963172DC4430700B9108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160963182DC4430700B9108E /* Build configuration list for PBXNativeTarget "WaWiMiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160963192DC4430700B9108E /* Debug */,
+				1609631A2DC4430700B9108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1609631B2DC4430700B9108E /* Build configuration list for PBXNativeTarget "WaWiMiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1609631C2DC4430700B9108E /* Debug */,
+				1609631D2DC4430700B9108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160962E92DC4430100B9108E /* Project object */;
+}

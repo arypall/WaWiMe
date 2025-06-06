@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1604E4512DC419AC00CEEFF9 /* WaWiMiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604E4502DC419AC00CEEFF9 /* WaWiMiApp.swift */; };
+		1604E4532DC419AC00CEEFF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604E4522DC419AC00CEEFF9 /* ContentView.swift */; };
+		1604E4582DC419B000CEEFF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1604E4572DC419B000CEEFF9 /* Preview Assets.xcassets */; };
+		1604E4622DC419B200CEEFF9 /* WaWiMiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604E4612DC419B200CEEFF9 /* WaWiMiTests.swift */; };
+		1604E46C2DC419B200CEEFF9 /* WaWiMiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604E46B2DC419B200CEEFF9 /* WaWiMiUITests.swift */; };
+		1604E46E2DC419B200CEEFF9 /* WaWiMiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604E46D2DC419B200CEEFF9 /* WaWiMiUITestsLaunchTests.swift */; };
+		1604E47B2DC41A3700CEEFF9 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604E47A2DC41A3700CEEFF9 /* SwipeView.swift */; };
+		1604E47D2DC41C5C00CEEFF9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1604E47C2DC41C5C00CEEFF9 /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1604E45E2DC419B100CEEFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1604E4452DC419AB00CEEFF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1604E44C2DC419AC00CEEFF9;
+			remoteInfo = WaWiMi;
+		};
+		1604E4682DC419B200CEEFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1604E4452DC419AB00CEEFF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1604E44C2DC419AC00CEEFF9;
+			remoteInfo = WaWiMi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1604E44D2DC419AC00CEEFF9 /* WaWiMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaWiMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1604E4502DC419AC00CEEFF9 /* WaWiMiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaWiMiApp.swift; sourceTree = "<group>"; };
+		1604E4522DC419AC00CEEFF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1604E4572DC419B000CEEFF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1604E45D2DC419B100CEEFF9 /* WaWiMiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaWiMiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1604E4612DC419B200CEEFF9 /* WaWiMiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaWiMiTests.swift; sourceTree = "<group>"; };
+		1604E4672DC419B200CEEFF9 /* WaWiMiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaWiMiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1604E46B2DC419B200CEEFF9 /* WaWiMiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaWiMiUITests.swift; sourceTree = "<group>"; };
+		1604E46D2DC419B200CEEFF9 /* WaWiMiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaWiMiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1604E47A2DC41A3700CEEFF9 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		1604E47C2DC41C5C00CEEFF9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1604E44A2DC419AC00CEEFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1604E45A2DC419B100CEEFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1604E4642DC419B200CEEFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1604E4442DC419AB00CEEFF9 = {
+			isa = PBXGroup;
+			children = (
+				1604E47C2DC41C5C00CEEFF9 /* Media.xcassets */,
+				1604E44F2DC419AC00CEEFF9 /* WaWiMi */,
+				1604E4602DC419B200CEEFF9 /* WaWiMiTests */,
+				1604E46A2DC419B200CEEFF9 /* WaWiMiUITests */,
+				1604E44E2DC419AC00CEEFF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1604E44E2DC419AC00CEEFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1604E44D2DC419AC00CEEFF9 /* WaWiMi.app */,
+				1604E45D2DC419B100CEEFF9 /* WaWiMiTests.xctest */,
+				1604E4672DC419B200CEEFF9 /* WaWiMiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1604E44F2DC419AC00CEEFF9 /* WaWiMi */ = {
+			isa = PBXGroup;
+			children = (
+				1604E4502DC419AC00CEEFF9 /* WaWiMiApp.swift */,
+				1604E4522DC419AC00CEEFF9 /* ContentView.swift */,
+				1604E47A2DC41A3700CEEFF9 /* SwipeView.swift */,
+				1604E4562DC419B000CEEFF9 /* Preview Content */,
+			);
+			path = WaWiMi;
+			sourceTree = "<group>";
+		};
+		1604E4562DC419B000CEEFF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1604E4572DC419B000CEEFF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1604E4602DC419B200CEEFF9 /* WaWiMiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1604E4612DC419B200CEEFF9 /* WaWiMiTests.swift */,
+			);
+			path = WaWiMiTests;
+			sourceTree = "<group>";
+		};
+		1604E46A2DC419B200CEEFF9 /* WaWiMiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1604E46B2DC419B200CEEFF9 /* WaWiMiUITests.swift */,
+				1604E46D2DC419B200CEEFF9 /* WaWiMiUITestsLaunchTests.swift */,
+			);
+			path = WaWiMiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1604E44C2DC419AC00CEEFF9 /* WaWiMi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1604E4712DC419B200CEEFF9 /* Build configuration list for PBXNativeTarget "WaWiMi" */;
+			buildPhases = (
+				1604E4492DC419AC00CEEFF9 /* Sources */,
+				1604E44A2DC419AC00CEEFF9 /* Frameworks */,
+				1604E44B2DC419AC00CEEFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaWiMi;
+			productName = WaWiMi;
+			productReference = 1604E44D2DC419AC00CEEFF9 /* WaWiMi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1604E45C2DC419B100CEEFF9 /* WaWiMiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1604E4742DC419B200CEEFF9 /* Build configuration list for PBXNativeTarget "WaWiMiTests" */;
+			buildPhases = (
+				1604E4592DC419B100CEEFF9 /* Sources */,
+				1604E45A2DC419B100CEEFF9 /* Frameworks */,
+				1604E45B2DC419B100CEEFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1604E45F2DC419B100CEEFF9 /* PBXTargetDependency */,
+			);
+			name = WaWiMiTests;
+			productName = WaWiMiTests;
+			productReference = 1604E45D2DC419B100CEEFF9 /* WaWiMiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1604E4662DC419B200CEEFF9 /* WaWiMiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1604E4772DC419B200CEEFF9 /* Build configuration list for PBXNativeTarget "WaWiMiUITests" */;
+			buildPhases = (
+				1604E4632DC419B200CEEFF9 /* Sources */,
+				1604E4642DC419B200CEEFF9 /* Frameworks */,
+				1604E4652DC419B200CEEFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1604E4692DC419B200CEEFF9 /* PBXTargetDependency */,
+			);
+			name = WaWiMiUITests;
+			productName = WaWiMiUITests;
+			productReference = 1604E4672DC419B200CEEFF9 /* WaWiMiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1604E4452DC419AB00CEEFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1604E44C2DC419AC00CEEFF9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1604E45C2DC419B100CEEFF9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1604E44C2DC419AC00CEEFF9;
+					};
+					1604E4662DC419B200CEEFF9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1604E44C2DC419AC00CEEFF9;
+					};
+				};
+			};
+			buildConfigurationList = 1604E4482DC419AB00CEEFF9 /* Build configuration list for PBXProject "WaWiMi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1604E4442DC419AB00CEEFF9;
+			productRefGroup = 1604E44E2DC419AC00CEEFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1604E44C2DC419AC00CEEFF9 /* WaWiMi */,
+				1604E45C2DC419B100CEEFF9 /* WaWiMiTests */,
+				1604E4662DC419B200CEEFF9 /* WaWiMiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1604E44B2DC419AC00CEEFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1604E47D2DC41C5C00CEEFF9 /* Media.xcassets in Resources */,
+				1604E4582DC419B000CEEFF9 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1604E45B2DC419B100CEEFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1604E4652DC419B200CEEFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1604E4492DC419AC00CEEFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1604E47B2DC41A3700CEEFF9 /* SwipeView.swift in Sources */,
+				1604E4532DC419AC00CEEFF9 /* ContentView.swift in Sources */,
+				1604E4512DC419AC00CEEFF9 /* WaWiMiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1604E4592DC419B100CEEFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1604E4622DC419B200CEEFF9 /* WaWiMiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1604E4632DC419B200CEEFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1604E46E2DC419B200CEEFF9 /* WaWiMiUITestsLaunchTests.swift in Sources */,
+				1604E46C2DC419B200CEEFF9 /* WaWiMiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1604E45F2DC419B100CEEFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1604E44C2DC419AC00CEEFF9 /* WaWiMi */;
+			targetProxy = 1604E45E2DC419B100CEEFF9 /* PBXContainerItemProxy */;
+		};
+		1604E4692DC419B200CEEFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1604E44C2DC419AC00CEEFF9 /* WaWiMi */;
+			targetProxy = 1604E4682DC419B200CEEFF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1604E46F2DC419B200CEEFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1604E4702DC419B200CEEFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1604E4722DC419B200CEEFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaWiMi/Preview Content\"";
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1604E4732DC419B200CEEFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaWiMi/Preview Content\"";
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1604E4752DC419B200CEEFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaWiMi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaWiMi";
+			};
+			name = Debug;
+		};
+		1604E4762DC419B200CEEFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaWiMi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaWiMi";
+			};
+			name = Release;
+		};
+		1604E4782DC419B200CEEFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaWiMi;
+			};
+			name = Debug;
+		};
+		1604E4792DC419B200CEEFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VF9QSHYWA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = walkwithme.com.ashleyryf.WaWiMiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaWiMi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1604E4482DC419AB00CEEFF9 /* Build configuration list for PBXProject "WaWiMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1604E46F2DC419B200CEEFF9 /* Debug */,
+				1604E4702DC419B200CEEFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1604E4712DC419B200CEEFF9 /* Build configuration list for PBXNativeTarget "WaWiMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1604E4722DC419B200CEEFF9 /* Debug */,
+				1604E4732DC419B200CEEFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1604E4742DC419B200CEEFF9 /* Build configuration list for PBXNativeTarget "WaWiMiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1604E4752DC419B200CEEFF9 /* Debug */,
+				1604E4762DC419B200CEEFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1604E4772DC419B200CEEFF9 /* Build configuration list for PBXNativeTarget "WaWiMiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1604E4782DC419B200CEEFF9 /* Debug */,
+				1604E4792DC419B200CEEFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1604E4452DC419AB00CEEFF9 /* Project object */;
+}
